@@ -1,0 +1,27 @@
+* {
+    font-family: "Arimo Nerd Font";
+    font-size: 22px; 
+    border-radius: 0px;
+    color: #d2bfa1;
+}
+
+window#waybar {
+    background:  #d2bfa1;
+}
+
+#pulseaudio , #network, #clock{
+    background:  #065535;
+    padding: 0 10px;
+    border: 2px solid #d2bfa1;
+}
+
+#workspaces button { 
+    background:  #724f32;
+    padding: 0 10px;
+    border: 2px solid #d2bfa1;
+}
+
+#workspaces button.active {
+    background: #065535;
+    border: 2px solid #d2bfa1;
+}
